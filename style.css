@@ -101,4 +101,11 @@
     --container-full: 1440px;
     --header-height: 80px;
 }
-
+/* =============================================
+   2. RESET & BASE STYLES
+   ============================================= */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
