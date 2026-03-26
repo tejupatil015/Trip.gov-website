@@ -145,3 +145,18 @@ button {
     background: none;
 }
 
+ul, ol {
+    list-style: none;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--gray-900);
+}
