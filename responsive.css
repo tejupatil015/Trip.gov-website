@@ -1,0 +1,28 @@
+/* =============================================
+   NATIONAL PARK SERVICE - RESPONSIVE STYLES
+   ============================================= */
+
+/* =============================================
+   LARGE SCREENS (1200px and below)
+   ============================================= */
+@media screen and (max-width: 1200px) {
+    :root {
+        --container-max: 960px;
+    }
+    
+    .parks-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .passes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .activities-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
