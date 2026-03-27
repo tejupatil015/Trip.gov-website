@@ -160,3 +160,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     color: var(--gray-900);
 }
+.container {
+    width: 100%;
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
