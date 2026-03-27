@@ -173,3 +173,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
 }
+.section {
+    padding: var(--spacing-4xl) 0;
+}
+
+.section-header {
+    margin-bottom: var(--spacing-2xl);
+}
+
