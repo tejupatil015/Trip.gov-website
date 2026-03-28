@@ -181,3 +181,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--spacing-2xl);
 }
 
+
+.section-header.centered {
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: var(--text-3xl);
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-sm);
+}
