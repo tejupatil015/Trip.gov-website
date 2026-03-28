@@ -191,3 +191,17 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--gray-900);
     margin-bottom: var(--spacing-sm);
 }
+
+.section-header p {
+    font-size: var(--text-lg);
+    color: var(--gray-600);
+}
+
+.section-header .view-all {
+    color: var(--nps-green);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    transition: all var(--transition-fast);
+}
