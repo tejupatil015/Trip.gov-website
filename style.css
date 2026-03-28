@@ -205,3 +205,8 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--spacing-sm);
     transition: all var(--transition-fast);
 }
+
+.section-header .view-all:hover {
+    color: var(--nps-green-dark);
+    gap: var(--spacing-md);
+}
