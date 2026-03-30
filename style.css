@@ -249,3 +249,20 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
 }
 
+/* =============================================
+   4. SKIP NAVIGATION
+   ============================================= */
+.skip-nav {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--nps-green);
+    color: var(--white);
+    padding: var(--spacing-md) var(--spacing-xl);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    z-index: var(--z-tooltip);
+    transition: top var(--transition-fast);
+}
+
+
