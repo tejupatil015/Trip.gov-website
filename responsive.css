@@ -26,3 +26,28 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* =============================================
+   MEDIUM SCREENS (992px and below)
+   ============================================= */
+@media screen and (max-width: 992px) {
+    :root {
+        --container-max: 720px;
+        --header-height: 70px;
+    }
+    
+    /* Navigation */
+    .main-navigation {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 320px;
+        height: 100vh;
+        background: var(--white);
+        box-shadow: var(--shadow-xl);
+        padding: calc(var(--header-height) + var(--spacing-xl)) var(--spacing-lg) var(--spacing-xl);
+        overflow-y: auto;
+        transition: right var(--transition-base);
+        z-index: var(--z-fixed);
+    }
+}
